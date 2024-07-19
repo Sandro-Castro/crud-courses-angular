@@ -7,7 +7,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 
-
 @NgModule({
 
   imports: [
@@ -16,7 +15,9 @@ import { CoursesComponent } from './courses/courses.component';
     MatTableModule,
     CoursesComponent,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    
+
 
   ]
 })
